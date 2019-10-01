@@ -1,0 +1,47 @@
+{
+  "name": "koop-sample-app",
+  "description": "Sample koop express application with some common koop providers.",
+  "version": "0.0.0",
+  "author": "Esri R&D",
+  "bugs": {
+    "url": "https://github.com/koopjs/koop-sample-app/issues"
+  },
+  "dependencies": {
+    "@koopjs/provider-github": "^3.0.0",
+    "config": "^3.0.1",
+    "koop": "^3.10.0",
+    "koop-provider-craigslist": "^2.0.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.2.2"
+  },
+  "homepage": "https://github.com/koopjs/koop-sample-app",
+  "keywords": [
+    "agol",
+    "arcgis",
+    "etl",
+    "example",
+    "geojson",
+    "gis",
+    "gist",
+    "github",
+    "heroku",
+    "koop",
+    "postgres",
+    "sample",
+    "socrata"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:koopjs/koop-sample-app.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "standard && tape test/*.js | tap-spec"
+  }
+}
